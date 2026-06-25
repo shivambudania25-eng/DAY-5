@@ -36,7 +36,7 @@ def add_matrices(a: List[List[int]], b: List[List[int]]) -> List[List[int]]:
         raise ValueError("Both matrices must be non-empty")
     if len(a) != len(b) or any(len(row_a) != len(row_b) for row_a, row_b in zip(a, b)):
         raise ValueError("Matrices must have the same dimensions")
-    return [[row_a[j] + row_b[j] for j, row_b in enumerate(row_b)] for row_a, row_b in zip(a, b)]
+    return [[row_a[j] + row_b[j] for j in range(len(row_a))] for row_a, row_b in zip(a, b)]
 
 
 def format_matrix(matrix: List[List[int]]) -> str:
