@@ -7,4 +7,11 @@
 - To print second largest element from given n numbers
 - To compute addition of two matrices
 
-A Python implementation is available in `arrays_day5.py`.
+Python implementations:
+- `max_element.py`
+- `min_element.py`
+- `sum_elements.py`
+- `reverse_array.py`
+- `second_largest.py`
+- `matrix_addition.py`
+- `arrays_day5.py` (combined version)
